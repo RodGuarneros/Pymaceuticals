@@ -1,12 +1,11 @@
-# Treatments analysis 
-# (Which is the best?)
+# Treatments analysis (Which is the best?)
 
 ## By Rodrigo Guarneros
 
 Note: In order to attend the analysis requierements and give an screen shot about the results. I start here with the technical executive report and the top-level summary. After this both sections, you'll find every data analysis and code in python so as to replicate results.
 
 # Technical report
-✏️ Exploring datasets and cleaning process:
+### ✏️ Exploring datasets and cleaning process:
 Having in mind the objective: "Compare the performance of Pymaceutical's drugs of interest", based on an study with 249 mice which were monitored so as to know their evolution over the course of 45 days.
 
 The dataset "mouse_metadata" is perfect because there is not missing values, there are 249 unique mice and is ready to joint with the other dadaset.
@@ -23,7 +22,7 @@ Merge both datasets with "left" criteria in order to get all the information
 Identify every duplicate observation in Mouse ID and Timepoint
 Drop duplicated observations so as to get a cleaned data frame. This point was crucial. Having in mind that duplicated()return a boolean serie denoting duplicate rows, see documentation.
 
-# ✏️ Main findings:
+### ✏️ Main findings:
 As was said, the test considers 249 mice divided in 10 drug treatments, including a placebo regimen. With almost the same proportion by gender and number of mice.
 
 image info
@@ -44,7 +43,7 @@ In order to identify the promising regimens, the distributions and means of each
 - Propriva
 - Infubinol
 
-![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/RegimenComp.png)
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/RegimenComp.png)
 
 Even, the distribution for those champions does not present outliers that we should manage.
 
@@ -62,7 +61,7 @@ There is a strong linear relationship between weaight and tumor volume (R2=0.70)
 
 image info
 
-# Top-level summary
+## Top-level summary
 
 - In terms of rate mortality the best treatment is Capomulin.
 
