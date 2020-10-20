@@ -25,7 +25,7 @@ Drop duplicated observations so as to get a cleaned data frame. This point was c
 ### ✏️ Main findings:
 As was said, the test considers 249 mice divided in 10 drug treatments, including a placebo regimen. With almost the same proportion by gender and number of mice.
 
-image info
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/GenerDist.png)
 
 Every mice was monitored during a period of 45 days in order to get the evolution the following variables: Tumor Volume (mm3) and Metastatic Sites. With an average age of 12.8 months and weight average of 25 grams.
 
@@ -35,7 +35,7 @@ The first fact finded shows that, having in mind that the SEM is descriptive of 
 
 The rate of mortality in several drug regimens are less than others. Particularly in Capomulin (4 mice of 25) and Ramicane (5 mice of 25). Even considering the Placebo Regimen, there are worst regimens such as: Propriva, Infubinol, Ketapril and Stelasyn.
 
-image info
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/PreserveLife.png)
 
 In order to identify the promising regimens, the distributions and means of each drug tested were compeared, finding as the most promising the following:
 - Capomulin
@@ -49,17 +49,17 @@ Even, the distribution for those champions does not present outliers that we sho
 
 Based on the measures of central tendency and boxplots, the promising treatments have the folowing distributions, means and standar deviation.
 
-image info
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/Fourchampions.png)
 
 Based also on the measures of central tendency and boxplots, the promising treatments have the folowing distributions, means and standar deviation.
 
 The reduction of the tumor volume is sustainded in every mice subject to Capomulin regime (with only one exception).
 
-image info
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/BehaveTV.png)
 
 There is a strong linear relationship between weaight and tumor volume (R2=0.70). Although this does not necessarily imply causality, it is suggested that the weight of the subjects should be very similar.
 
-image info
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/correl.png)
 
 ## Top-level summary
 
