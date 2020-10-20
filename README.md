@@ -55,7 +55,7 @@ Based also on the measures of central tendency and boxplots, the promising treat
 
 The reduction of the tumor volume is sustainded in every mice subject to Capomulin regime (with only one exception).
 
-![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/BehaveTV.png)
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/blob/main/BehavTV.png)
 
 There is a strong linear relationship between weaight and tumor volume (R2=0.70). Although this does not necessarily imply causality, it is suggested that the weight of the subjects should be very similar.
 
