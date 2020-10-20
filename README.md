@@ -1,6 +1,11 @@
+# Treatments analysis 
+# (Which is the best?)
+
+## By Rodrigo Guarneros
+
 Note: In order to attend the analysis requierements and give an screen shot about the results. I start here with the technical executive report and the top-level summary. After this both sections, you'll find every data analysis and code in python so as to replicate results.
 
-Technical report
+# Technical report
 ✏️ Exploring datasets and cleaning process:
 Having in mind the objective: "Compare the performance of Pymaceutical's drugs of interest", based on an study with 249 mice which were monitored so as to know their evolution over the course of 45 days.
 
@@ -18,7 +23,7 @@ Merge both datasets with "left" criteria in order to get all the information
 Identify every duplicate observation in Mouse ID and Timepoint
 Drop duplicated observations so as to get a cleaned data frame. This point was crucial. Having in mind that duplicated()return a boolean serie denoting duplicate rows, see documentation.
 
-✏️ Main findings:
+# ✏️ Main findings:
 As was said, the test considers 249 mice divided in 10 drug treatments, including a placebo regimen. With almost the same proportion by gender and number of mice.
 
 image info
@@ -34,11 +39,12 @@ The rate of mortality in several drug regimens are less than others. Particularl
 image info
 
 In order to identify the promising regimens, the distributions and means of each drug tested were compeared, finding as the most promising the following:
-Capomulin
-Ramicane
-Propriva
-Infubinol
-image info
+- Capomulin
+- Ramicane
+- Propriva
+- Infubinol
+
+![Alt Text](https://github.com/RodGuarneros/Pymaceuticals/RegimenComp.png)
 
 Even, the distribution for those champions does not present outliers that we should manage.
 
@@ -56,15 +62,16 @@ There is a strong linear relationship between weaight and tumor volume (R2=0.70)
 
 image info
 
-Top-level summary
-In terms of rate mortality the best treatment is Capomulin.
+# Top-level summary
 
-The average reduction in tumor volume attributed to Capomulin is very similar to that registered for the best regimen tested (Ramicane).
+- In terms of rate mortality the best treatment is Capomulin.
 
-Capomulin is a serious contender in the market for Ramicane.
+- The average reduction in tumor volume attributed to Capomulin is very similar to that registered for the best regimen tested (Ramicane).
 
-There is no comparison with the rest of the treatments, Capomulin and Ramicane do present significant and sustained results reducing tumor volume.
+- Capomulin is a serious contender in the market for Ramicane.
 
-The weight seems to be a driver for the tumor volume, this result is important considering that every mice should have the same opportunity of gain weight so as to avoid bias the research.
+- There is no comparison with the rest of the treatments, Capomulin and Ramicane do present significant and sustained results reducing tumor volume.
+
+- The weight seems to be a driver for the tumor volume, this result is important considering that every mice should have the same opportunity of gain weight so as to avoid bias the research.
 
 
